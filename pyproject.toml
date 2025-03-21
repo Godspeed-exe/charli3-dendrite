@@ -7,7 +7,7 @@ readme = "README.md"
 packages = [{include = "charli3_dendrite", from = "src"}]
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.9"
 requests = "^2.31.0"
 pydantic = "^2.5.2"
 psycopg = {extras = ["binary", "pool"], version = "^3.1.13"}
