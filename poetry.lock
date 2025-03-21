@@ -1273,6 +1273,16 @@ files = [
     {file = "nodeenv-1.9.1.tar.gz", hash = "sha256:6ec12890a2dab7946721edbfbcd91f3319c6ccc9aec47be7c7e6b7011ee6645f"},
 ]
 
+[[package]]
+name = "ogmios"
+version = "1.2.0"
+description = "Ogmios is a lightweight bridge interface for cardano-node. It offers a WebSockets API that enables local clients to speak Ouroboros' mini-protocols via JSON/RPC. ogmios-python is an Ogmios client written in Python designed for ease of use."
+optional = false
+python-versions = ">=3.10"
+files = [
+    {file = "ogmios-1.2.0-py3-none-any.whl", hash = "sha256:ff289416452ff78e39c772824c88e90a762f9d16fd893e42a52b22cf533cf344"},
+    {file = "ogmios-1.2.0.tar.gz", hash = "sha256:b24884c2ce497cf72394c03aecb94eec27f14f79b305e5b0816544703fba0c60"},
+]
 
 [package.dependencies]
 cachetools = "*"
